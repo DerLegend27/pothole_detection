@@ -11,10 +11,10 @@ from utils import visualization_utils as vis_util
 # --> Globale Variablen <--
 
 # Dateipfad zur Modelldatei
-MODEL =  r"C:\Users\Schlu\OneDrive\Desktop\pothole\frozen_inference_graph_resnet.pb"
+MODEL =  r"model/pothole_resnet.pb"
 
 # Dateipfad zu den Labels
-LABELS = r"C:\Users\Schlu\OneDrive\Desktop\pothole\crackLabelMap.txt"
+LABELS = r"model/LabelMap.txt"
 CLASSES = 8
 
 def load_image_into_numpy_array(image):
